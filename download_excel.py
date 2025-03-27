@@ -54,4 +54,3 @@ def download_excel(data, file_name="output_name", columns=None, drop_na=True, in
 
     df.to_excel(file_name, index=index)
     print(f"✅ Excel file saved as {file_name}")
-
